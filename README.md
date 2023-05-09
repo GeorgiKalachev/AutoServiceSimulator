@@ -1,10 +1,8 @@
-# Project Title
-Auto Service Simulator
+# Auto Service Simulator
+The project simulates the workflow of an auto service where cars are accepted for diagnostics and maintenance services. The auto service can perform various services, each with a type, description, and duration. The application stores pre-defined services in the database, and these services are loaded into a list when the service starts.
 
 # Description
 This test has to be made for 3 hours !
-
-The project simulates the workflow of an auto service where cars are accepted for diagnostics and maintenance services. The auto service can perform various services, each with a type, description, and duration. The application stores pre-defined services in the database, and these services are loaded into a list when the service starts.
 
 Cars can be ordered for servicing, and each car has a registration number, make, and model, and the date of the order. Diagnosticians are waiting for orders to arrive constantly. If there are no orders for diagnostics, they wait for one to appear. Once a car is assigned for diagnostics, the diagnosticians diagnose it within 5 seconds, after which they update the order in the database, providing the repair date and the name of the technician who completed the diagnostics.
 
